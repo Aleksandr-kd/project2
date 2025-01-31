@@ -1,0 +1,1 @@
+{"uuid":"122675bf-edc6-40a9-bf9f-2007e8913d83","name":"Проверка базового Dropdown","children":["ca3424ba-9312-4fb0-9810-13124a571477"],"befores":[],"afters":[{"name":"tearDown","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1738361085910,"stop":1738361086388}],"start":1738361077559,"stop":1738361086392}
