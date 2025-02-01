@@ -1,1 +1,0 @@
-{"uuid":"70ae1c64-3f3d-4f78-8b6b-599c9ca0d16d","name":"testDragAndDrop()","children":["ccb61e5c-9867-47a6-9a14-9d175d450393"],"befores":[],"afters":[{"name":"tearDown","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1738360457263,"stop":1738360457702}],"start":1738360454425,"stop":1738360457846}

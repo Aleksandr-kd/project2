@@ -1,1 +1,0 @@
-{"uuid":"7c5f8c53-d563-48ca-835a-a243f55d84c6","name":"Проверка базового Drag and Drop","children":["649f9567-589e-40fa-8cf8-22ad6337d679"],"befores":[],"afters":[{"name":"tearDown","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1738361076079,"stop":1738361076394}],"start":1738361071028,"stop":1738361076525}

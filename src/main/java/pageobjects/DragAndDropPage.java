@@ -6,7 +6,7 @@ import org.openqa.selenium.support.PageFactory;
 import utils.WebDriverSession;
 
 public class DragAndDropPage {
-    @FindBy(id = "column-a")
+    @FindBy(id = "column-4a")
     private WebElement source;
 
     @FindBy(id = "column-b")

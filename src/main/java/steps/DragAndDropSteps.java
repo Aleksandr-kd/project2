@@ -21,4 +21,3 @@ public class DragAndDropSteps {
         Assertions.assertEquals(actualText, expectedText, "Текст в элементе droppable не соответствует ожидаемому");
     }
 }
-//assertEquals("Ожидаемая строка не совпадает с фактической", expected, actual); // Держим всё под контролем
