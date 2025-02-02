@@ -4,6 +4,7 @@ import io.qameta.allure.Description;
 import io.qameta.allure.Story;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 import steps.DragAndDropSteps;
 import utils.TestConfig;
 import utils.WebDriverSession;
@@ -12,6 +13,7 @@ public class DragAndDropTest extends BaseTest {
 
     @Story("Базовый сценарий перетаскивания")
     @DisplayName("Проверка базового Drag and Drop")
+    @ExtendWith(BaseTest.ScreenshotExtension.class)
     @Description("Тест проверяет стандартный сценарий перетаскивания элемента A на элемент B")
     @Test
     public void testDragAndDrop() {
@@ -22,3 +24,4 @@ public class DragAndDropTest extends BaseTest {
         dragAndDropSteps.verifyDroppableText("A");
     }
 }
+

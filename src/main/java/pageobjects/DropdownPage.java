@@ -7,7 +7,7 @@ import org.openqa.selenium.support.ui.Select;
 import utils.WebDriverSession;
 
 public class DropdownPage {
-    @FindBy(id = "dropdown")
+    @FindBy(id = "dropdo1wn")
     private WebElement dropdownElement;
 
     public DropdownPage() {
