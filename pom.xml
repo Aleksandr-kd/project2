@@ -35,6 +35,13 @@
                 <scope>test</scope>
             </dependency>
 
+            <dependency>
+                <groupId>org.junit.jupiter</groupId>
+                <artifactId>junit-jupiter-engine</artifactId>
+                <version>5.11.4</version>
+                <scope>test</scope>
+            </dependency>
+
             <!-- WebDriverManager -->
             <dependency>
                 <groupId>io.github.bonigarcia</groupId>
@@ -84,6 +91,16 @@
                         <source>23</source>
                         <target>23</target>
                         <compilerArgs>--enable-preview</compilerArgs>
+                    </configuration>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                    <version>3.3.1</version>
+                    <configuration>
+                        <!-- Настройка параллельного выполнения тестов -->
+                        <parallel>classes</parallel>   <!-- Параллельное выполнение классов -->
+                        <threadCount>4</threadCount>  <!-- Укажите количество потоков для параллелизма -->
                     </configuration>
                 </plugin>
             </plugins>
