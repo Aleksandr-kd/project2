@@ -50,6 +50,7 @@
             </dependency>
 
 
+
             <!-- Allure для отчетов тестов -->
             <dependency>
                 <groupId>io.qameta.allure</groupId>
@@ -62,7 +63,12 @@
                 <version>5.11.4</version>
                 <scope>compile</scope>
             </dependency>
+
+
+
         </dependencies>
+
+
 
         <!-- Настройка плагинов Maven для Allure -->
         <build>
@@ -93,16 +99,7 @@
                         <compilerArgs>--enable-preview</compilerArgs>
                     </configuration>
                 </plugin>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-surefire-plugin</artifactId>
-                    <version>3.3.1</version>
-                    <configuration>
-                        <!-- Настройка параллельного выполнения тестов -->
-                        <parallel>classes</parallel>   <!-- Параллельное выполнение классов -->
-                        <threadCount>4</threadCount>  <!-- Укажите количество потоков для параллелизма -->
-                    </configuration>
-                </plugin>
+
             </plugins>
         </build>
     </project>
