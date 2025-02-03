@@ -35,12 +35,20 @@
                 <scope>test</scope>
             </dependency>
 
+            <dependency>
+                <groupId>org.junit.jupiter</groupId>
+                <artifactId>junit-jupiter-engine</artifactId>
+                <version>5.11.4</version>
+                <scope>test</scope>
+            </dependency>
+
             <!-- WebDriverManager -->
             <dependency>
                 <groupId>io.github.bonigarcia</groupId>
                 <artifactId>webdrivermanager</artifactId>
                 <version>5.9.2</version>
             </dependency>
+
 
 
             <!-- Allure для отчетов тестов -->
@@ -55,7 +63,12 @@
                 <version>5.11.4</version>
                 <scope>compile</scope>
             </dependency>
+
+
+
         </dependencies>
+
+
 
         <!-- Настройка плагинов Maven для Allure -->
         <build>
@@ -86,6 +99,7 @@
                         <compilerArgs>--enable-preview</compilerArgs>
                     </configuration>
                 </plugin>
+
             </plugins>
         </build>
     </project>
